@@ -1,6 +1,7 @@
 cubes = []
 for i in range(1, 1001):
-    cubes.append(i*i*i)
+    if(i%2 != 0):
+        cubes.append(i*i*i)
 
 # задача а
 cube_sum = 0
