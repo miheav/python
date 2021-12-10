@@ -1,4 +1,7 @@
-cubes = [3*3*3, 7*7*7, 23*23*23, 101*101*101, 19*19*19]
+cubes = []
+for i in range(1, 1001):
+    cubes.append(i*i*i)
+
 # задача а
 cube_sum = 0
 for cube in cubes:
