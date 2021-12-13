@@ -19,7 +19,6 @@ for index, value in enumerate(list):
         list.insert(index, '"')
         list.insert(index + 2, '"')
 
-        
 
 print(list)
 
@@ -30,7 +29,7 @@ for index, value in enumerate(list):
 
     previous_is_number = is_number
     is_number = False
-    
+
     for number in numbers:
         if number in value:
             is_number = True
