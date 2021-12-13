@@ -19,7 +19,7 @@ cube_sum = 0
 for cube in cubes:
     cube += 17 # Павильная строка
     string = str(cube)
-    # string = str(cube + 17) # Можете подсказать почему из за такого подхода ответ был 15392908808 а не 15392909930 как у всех
+    # string = str(cube + 17) # Почему то из за такого подхода ответ был 15392908808 а не 15392909930 как у всех
     sum = 0
     for number in string:
         sum += int(number)
